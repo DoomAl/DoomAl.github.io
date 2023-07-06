@@ -5,6 +5,7 @@
   "homepage": "https://doomal.github.io/doomal.github.io",
   "dependencies": {
     "cypress": "10.3.0",
+    "gh-pages": "^5.0.0",
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "react-hook-form": "6.0.5",
