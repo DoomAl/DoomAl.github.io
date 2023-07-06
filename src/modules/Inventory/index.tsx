@@ -13,8 +13,8 @@ type Props = {
 const schema = yup.object().shape({
   inventory: yup
     .number()
-    .min(1000, "You need to have more stuff to run your business, stupid")
-    .max(10000000, "Whoah, calm down Scrooge McDuck")
+    .min(1000, "You need to have more stuff to run your business")
+    .max(10000000, "Whoah, Scrooge McDuck")
 });
 
 const maxECommerceInventory = 2000000;
