@@ -2,7 +2,7 @@
   "name": "cypress-react-test",
   "version": "1.0.0",
   "main": "src/index.js",
-  "homepage": "https://doomal.github.io/doomal.github.io",
+  "homepage": "https://doomal.github.io",
   "dependencies": {
     "cypress": "10.3.0",
     "gh-pages": "^5.0.0",
@@ -24,7 +24,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
   },
